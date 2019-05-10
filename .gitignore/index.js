@@ -16,7 +16,7 @@ bot.on('message', message => {
         message.channel.sendMessage("Liste des commandes: \n -*help");
     }
 
-    if(message.content..toLowerCase() === "salut"){
+    if(message.content.toLowerCase() === "salut"){
         message.reply("Bien le bonjour. :)");
         console.log("Commande Salut effectué");
     }
@@ -25,3 +25,4 @@ bot.on('message', message => {
         message.reply("Certainement pas <@175281779945504769> en tout cas ! Peut-être <@194863001495404544> ?!");
     }
 });
+
