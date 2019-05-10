@@ -22,6 +22,6 @@ bot.on('message', message => {
     }
     
     if(message.content === "C'est qui le meilleur ?!"){
-        message.reply("Certainement pas Rïkø en tout cas ! Peut-être Tenweex ?!");
+        message.reply("Certainement pas <@175281779945504769> en tout cas ! Peut-être <@194863001495404544> ?!");
     }
 });
